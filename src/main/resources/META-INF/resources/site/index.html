@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet"> 
+        <title>Rockers UI</title>
+    </head>
+    
+    <body style="background-image: url('quarkus_world_tour.png');">
+        <h1 style="font-family: 'Pirata One', cursive;font-size: 450%;color:white;"><center>Let's Get Rocked</center></h1>
+        <div id="root" class="ui container">
+            
+        </div>
+        
+        
+        <div id="modelNewBand" class="ui mini modal">
+            <div class="header">New Band</div>
+            <div class="content">
+                <div class="ui form">
+                    <div class="field">
+                        <label>Name</label>
+                        <input id="txtNewBandName" type="text" name="name" placeholder="Band Name">
+                    </div>
+                    <div class="field">
+                        <label>Since</label>
+                        <div class="ui calendar">
+                            <div class="ui input left icon">
+                                <i class="calendar icon"></i>
+                                <input id="txtNewBandSince" type="text" placeholder="Pick up a date" name="since">
+                            </div>        
+                        </div>
+                    </div>
+                    
+                    <button id="btnNewBand" class="fluid ui positive button" type="submit">Add</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="modelNewMember" class="ui mini modal">
+            <div class="header">Add Member</div>
+            <div class="content">
+                <div class="ui form">
+                    <div class="field">
+                        <label>Name</label>
+                        <input id="txtNewMemberName" type="text" name="name" placeholder="Member Name">
+                    </div>
+                    <div class="field">
+                        <label>Role</label>
+                        <div class="ui selection dropdown">
+                            <input id="txtNewMemberRole" type="hidden" name="role">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Role</div>
+                                <div class="menu">
+                                    <div class="item" data-value="Lead_Vocals">Lead Vocals</div>
+                                    <div class="item" data-value="Backing_Vocals">Backing Vocals</div>
+                                    <div class="item" data-value="Lead_Guitar">Lead Guitar</div>
+                                    <div class="item" data-value="Bass_Guitar">Bass Guitar</div>
+                                    <div class="item" data-value="Rhythm_Guitar">Rhythm Guitar</div>
+                                    <div class="item" data-value="Drums">Drums</div>
+                                    <div class="item" data-value="Keyboards">Keyboards</div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <button id="btnNewMember" class="fluid ui positive button" type="submit">Join</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+        <script src="rockers.js" type="module" charset="UTF-8"> </script>
+        
+    </body>
+</html>

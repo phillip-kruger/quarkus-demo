@@ -22,10 +22,6 @@ public class RockBand extends PanacheEntity {
         return find("name", name).firstResult();
     }
 
-    public static List<RockBand> findSoloActs(){
-        return list("members.count", 1);
-    }
-    
     public void addMember(Member member){
         if(this.bandmembers == null){
             bandmembers = new ArrayList<>();

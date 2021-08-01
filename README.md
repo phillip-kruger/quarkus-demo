@@ -8,6 +8,8 @@
 - Native execution
 - Dev Services
 
+github.com:phillip-kruger/quarkus-demo.git
+
 ![Banner](QuarkusWorldTour.png?raw=true)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.

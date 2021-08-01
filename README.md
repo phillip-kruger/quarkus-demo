@@ -1,5 +1,13 @@
 # quarkus-world-tour project
 
+- Project creation
+- code.quarkus.io and cmd line
+- quarkiverse & guides
+- Dev mode
+- Continuous testing
+- Native execution
+- Dev Services
+
 ![Banner](QuarkusWorldTour.png?raw=true)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.

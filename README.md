@@ -3,7 +3,7 @@
 - Project creation
 - code.quarkus.io and cmd line
 - quarkiverse & guides
-- Dev mode
+- Dev mode & Dev UI
 - Continuous testing
 - Native execution
 - Dev Services
